@@ -1,1 +1,5 @@
-console.log('Happy developing ✨');
+const myButton = document.getElementById("mybutton");
+
+myButton?.addEventListener("click", () => {
+    console.log('Button clicked!');
+});
