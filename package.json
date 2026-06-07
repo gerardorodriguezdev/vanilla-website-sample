@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "stylelint \"public/**/*.css\""
   },
   "devDependencies": {
     "stylelint": "^17.13.0",
