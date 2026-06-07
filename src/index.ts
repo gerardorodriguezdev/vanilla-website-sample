@@ -1,5 +1,3 @@
-const myButton = document.getElementById("mybutton");
+import "./style.css";
 
-myButton?.addEventListener("click", () => {
-    console.log('Button clicked!');
-});
+console.log("Hi");

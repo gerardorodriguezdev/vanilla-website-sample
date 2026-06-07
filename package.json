@@ -4,8 +4,10 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "lint": "stylelint \"public/**/*.css\""
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "stylelint \"src/**/*.css\""
   },
   "devDependencies": {
     "stylelint": "^17.13.0",
